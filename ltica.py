@@ -1,3 +1,5 @@
+import time
+
 compile_lib = ''
 try:
     from blinkt import set_pixel, set_brightness, show, clear
@@ -11,3 +13,5 @@ set_brightness(0.5)
 clear()
 set_pixel(0, 255, 0, 0)
 show()
+
+time.sleep(1)
