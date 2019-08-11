@@ -6,7 +6,8 @@ except ImportError:
     from compile.blinkt import set_pixel, set_brightness, show, clear
     compile_lib = 'compile.blinkt'
 
+set_brightness(0.5)
 
 clear()
-set_pixel(0, 255, 255, 255)
+set_pixel(0, 255, 0, 0)
 show()
