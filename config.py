@@ -1,11 +1,10 @@
-import time
 import yaml
 
 
 class ConfigParse:
-    '''
+    """
     このクラスは設定ファイルから設定を読み込むファイルです。
-    '''
+    """
     HOST_CONFIG = None
     HOST_TYPE = None
 
